@@ -213,9 +213,9 @@ P,h1,h2,h3,h4,h5,h6,ul,li{
 .slider_content2{
     text-align: center;
 }
-.sec_2{
+.p--120{
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 90px;
 }
 .set_btn{
     background-color: var(--primary);
@@ -248,6 +248,69 @@ P,h1,h2,h3,h4,h5,h6,ul,li{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+.second_content{
+    border: 1px solid #f6f6f6;
+    margin-bottom: 30px;
+    padding: 40px 25px 35px;
+    background-color: var(--white);
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.second-content:before{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    background-color: var(--secondary);
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+
+}
+.second_content:hover{
+    box-shadow: 0 16px 32px 0 rgba(7, 28, 31, 0.1);
+    color: var(--secondary);
+}
+.second-content:hover:before{
+    height: 100%;
+}
+.service_icon span i{
+    font-size: 60px;
+    color: var(--secondary);
+    line-height: 1px;
+    margin-top: 30px;
+}
+.feature_info h3{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.feature_info h3 a{
+    color:black !important;
+    text-decoration: none !important;]
+}
+.feature_info h3 a:hover{
+    color: var(--secondary) !important;
+    transition: all 0.2s;
+}
+.feature_info p{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.feature_info .service_anchor{
+    justify-content: end;
+    color: black !important;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+}
+.feature_info .service_anchor i{
+    font-size: 14px;
+    margin-left: 5px;
 }
 /* Media Quries for Responsive View */
 @media (max-width:992px) {
