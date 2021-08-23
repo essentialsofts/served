@@ -557,6 +557,9 @@ h6{
     opacity: 0;
     visibility: hidden;
 }
+.how_we_work_items:hover{
+    box-shadow: 0 16px 32px 0 rgba(7, 28, 31, 0.1);;
+}
 .how_we_work_items:hover .feature_text::before{
     opacity: 1;
     visibility: visible;
@@ -570,7 +573,7 @@ h6{
 }
 .set_progress_bar_sec{
     padding-top: 150px;
-    margin-top: -160px;
+    margin-top: -150px;
     z-index: 9;
 }
 .progress_bar_container{
@@ -586,7 +589,7 @@ h6{
 .progress{
     width: 160px;
     height: 160px;
-    background: none !important     ;
+    background: none;   ;
     position: relative;
     margin-left: auto;
     margin-right: auto;
