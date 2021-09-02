@@ -1,3 +1,16 @@
+window.onscroll=function(){
+    myfunction()
+};
+var navbar = document.getElementById("mynavbar");
+function myfunction(){
+    if(window.pageYOffset>=750){
+        navbar.classList.add("sticky")
+    }
+    else{
+        navbar.classList.remove("sticky");
+    }
+}
+
 
 $('.owl-carousel').owlCarousel({
     loop:true,
