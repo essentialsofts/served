@@ -36,6 +36,11 @@ p,h3,h4,h5,h6,li,a{
 .top-bar-right-menu {
     text-align: right;
 }
+.lang_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .top-bar-menu ul,.top-bar-right-menu ul{
     list-style: none;
 }
@@ -1338,6 +1343,12 @@ footer{
     } */
     .full_width_carousel_caption{
         max-width: 600px;
+    }
+    .slider_btn1{
+        padding: 5px 15px !important;
+    }
+    .slider_btn2{
+        padding: 5px 15px !important;
     }
 }
 /* @media (min-width:768px){
