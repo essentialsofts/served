@@ -141,19 +141,6 @@ p,h3,h4,h5,h6,li,a{
     z-index: 10;
     padding-top: 150px;
 }
-/* @-webkit-keyframes fadeInUp {
-    from {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 100%, 0);
-      transform: translate3d(0, 100%, 0);
-    }
-  
-    to {
-      opacity: 1;
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-  } */
 .slider_sub_title{
     color: var(--secondary);
     font-size: 1.6rem;
@@ -211,10 +198,6 @@ p,h3,h4,h5,h6,li,a{
     align-items: center;
     flex-direction: column;
 }
-/* .set_para{
-    padding-left: 150px;
-    padding-right: 150px;
-} */
 .slider_btn1{
     background-color: var(--secondary) !important;
     padding: 10px 40px !important;
@@ -1251,9 +1234,6 @@ footer{
         margin-bottom: 60px;
         padding-right: 35px;
     }
-    /* .set_title{
-        margin-top: 35px !important;
-    } */
     html{
         font-size: 8px;
     }
@@ -1265,16 +1245,6 @@ footer{
     }
 }
 @media (max-width:925px){
-    /* .slider_btn1{
-        display: none;
-    }
-    .slider_btn2{
-        display: none;
-    } */
-    /* .carousel-item > img, #fw_al_005 > .carousel-inner > .carousel-item > a > img{
-        width: auto !important;
-        height: 100vh;
-    } */
     .carousel-item,.active img {
         width: auto;
         height: 100vh;
@@ -1322,10 +1292,6 @@ footer{
         padding-top: 0px;
         padding-bottom: 0px;
     }
-    /* .set_title{
-        margin-top: 0 !important;
-        margin-bottom: 15px !important;
-    } */
     .set_para{
         padding-left: 15px;
         padding-right: 15px;
@@ -1350,12 +1316,7 @@ footer{
     .slider_btn2{
         padding: 5px 15px !important;
     }
-}
-/* @media (min-width:768px){
-    .container, .container-sm{
-        max-width: 760 !important;
-    }
-} */    
+}  
 @media (max-width:556px){
     .brand_im3{
         display: none;
@@ -1426,12 +1387,18 @@ footer{
     }
     .full_width_carousel_caption{
         max-width: 340px;
-        top: 45% !important;
+        
+    }
+    .full_width_carousel_caption{
+        top: 48% !important;
     }
 }
 @media (max-width:370px){
     .about_author_info{
         flex-direction: column;
+    }
+    .full_width_carousel_caption{
+        top: 45% !important;
     }
 }
 @media (max-width:319px){
@@ -1443,6 +1410,4 @@ footer{
     .full_width_carousel_caption{
         max-width: 270px;
     }
-}@media (max-width:260px){
-    
 }
