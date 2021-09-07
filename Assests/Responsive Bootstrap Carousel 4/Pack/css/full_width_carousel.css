@@ -93,20 +93,12 @@
 .full_width_carousel_caption h2{
   font-size: 30px;
   margin: 0px 0px 15px 0px;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-  -webkit-animation-timing-function: cubic-bezier(.65,1.95,.03,.32);
-  animation-timing-function: cubic-bezier(.65,1.95,.03,.32);
 }
 .full_width_carousel_caption h1{
   font-size: 45px;
   font-weight: 800;
   margin: 0px 0px 40px 0px;
   text-transform: capitalize;
-  -webkit-animation-delay: 1.5s;
-  animation-delay: 1.5s;
-  -webkit-animation-timing-function: cubic-bezier(.65,1.95,.03,.32);
-  animation-timing-function: cubic-bezier(.65,1.95,.03,.32);
 }
 .full_width_carousel_button_colored,
 .full_width_carousel_button_colored:visited{

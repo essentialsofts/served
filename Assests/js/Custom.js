@@ -3,7 +3,7 @@ window.onscroll=function(){
 };
 var navbar = document.getElementById("mynavbar");
 function myfunction(){
-    if(window.pageYOffset>=670){
+    if(window.pageYOffset>=100){
         navbar.classList.add("sticky")
     }
     else{
@@ -14,7 +14,7 @@ function myfunction(){
 
 $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:30,
+    margin:15,
     nav:true,
     autoplay:true,
     responsive:{
